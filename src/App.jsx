@@ -19,7 +19,7 @@ import ScrollIndicator from "./components/customScrollIndicator/ScrollIndicator.
 function App() {
   return (
     <>
-      {/*<Accordion />
+      {<Accordion />
       <RandomColor />
       <StarRating noOfStars={10} />
       <ImageSlider
@@ -28,9 +28,9 @@ function App() {
         limit={"10"}
       />
       <LoadMoreData />
-      <TreeView menus={menus} />*/}
-      {/*<QRCodeGenerator />
-      <LightDarkMode />*/}
+      <TreeView menus={menus} />
+      {<QRCodeGenerator />
+      <LightDarkMode />}
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </>
   );
